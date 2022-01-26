@@ -1,5 +1,6 @@
 import { Slider, Switch } from "@material-ui/core";
 import React, { Fragment, useState } from "react";
+import BoxContainer from "./BoxContainer";
 import "./Controls.css";
 
 function Controls() {
@@ -80,8 +81,14 @@ function Controls() {
             disabled
           />
         </div>
-        
       </div>
+
+      <BoxContainer
+        x={x}
+        y={y}
+        spread={spread}
+        blur={blur}
+      />
       
     </Fragment>
   );
