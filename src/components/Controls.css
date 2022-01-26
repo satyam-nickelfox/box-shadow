@@ -1,0 +1,21 @@
+.controls {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+    flex-direction: column;
+    background-color: aliceblue;
+  }
+  
+  .controls__group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .controls__showValueBox {
+    width: 30px;
+    border: 1px solid black;
+    margin-left: 20px;
+  }
